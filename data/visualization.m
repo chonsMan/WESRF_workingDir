@@ -20,6 +20,12 @@ PINE   = [74 119 60]/255;
 %plots
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+% plot(t,M_ra_out(:,1),'Color',ORANGE,'LineWidth',1.2)
+% hold on
+% plot(t,M_tf_out(:,1),'Color',WAVE,'LineWidth',1.2)
+% legend('Robot', 'Model')
+% title('Surge Outputs')
+
 % set(gcf, 'Units', 'inches', 'Position',...
 %     [2 2 clmnwdth_inches clmnwdth_inches/3])
 % set(gca, 'FontName', fnttype, 'FontSize', fntsze)
